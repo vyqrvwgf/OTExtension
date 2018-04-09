@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OTExtension_Example' do
+  pod 'OTExtension', :path => '../'
+
+  target 'OTExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

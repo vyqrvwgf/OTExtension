@@ -1,0 +1,16 @@
+PODS:
+  - OTExtension (0.1.0)
+
+DEPENDENCIES:
+  - OTExtension (from `../`)
+
+EXTERNAL SOURCES:
+  OTExtension:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OTExtension: d95d127b388eaa836361950b3bc329a99a23e241
+
+PODFILE CHECKSUM: d6a3bac9e080a853717552a1ffaff1144941a2d0
+
+COCOAPODS: 1.3.1
