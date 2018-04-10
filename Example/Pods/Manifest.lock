@@ -1,5 +1,7 @@
 PODS:
-  - OTExtension (0.1.4)
+  - OTExtension (0.1.5):
+    - OTMacro
+  - OTMacro (0.1.1)
 
 DEPENDENCIES:
   - OTExtension (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  OTExtension: e3bd78e1b767a2d678a463c17864f389ef4436c0
+  OTExtension: 56a6f2e6c22254d2947eb0288def835a28d9f009
+  OTMacro: e12adab3ceb640436b439454c5c71e7a1ae04f15
 
 PODFILE CHECKSUM: d6a3bac9e080a853717552a1ffaff1144941a2d0
 

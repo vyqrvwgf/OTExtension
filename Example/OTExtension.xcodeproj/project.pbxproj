@@ -323,10 +323,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OTExtension_Example/Pods-OTExtension_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/OTExtension/OTExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/OTMacro/OTMacro.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTMacro.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

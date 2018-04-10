@@ -7,72 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10A42C59388FD5493C60587E60F5072F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		52B04D5AA26BEEBB2F08D0509AA2EA16 /* OTColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A68FDE0FC6381F4548BF529AD69784 /* OTColorExtension.swift */; };
+		00C60148414276DE8DCC7E00618BE093 /* OTMacro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C380A55654D98C8834EC476FA073169 /* OTMacro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10A42C59388FD5493C60587E60F5072F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9969F920625FFDDA25FE3588A623B5DB /* Foundation.framework */; };
+		194FFB98B8DD241E938E176266167BB5 /* OTExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4763E9E4D160F6320BD9E378DAED128A /* OTExtension-dummy.m */; };
+		19EA8C4A2188EB94E60AC3A36B599A66 /* OTMacro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1A34982B9B581B1C8AD99A3D8AD0EA /* OTMacro-dummy.m */; };
+		2F363870F3373BAED377729E4B2D6CB4 /* Pods-OTExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC302C8A89CB59656C3D46B89389A8FA /* Pods-OTExtension_Example-dummy.m */; };
+		4585340EECBE1900BD4C84B3D9F64025 /* OTExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3433B3DC846FA97D2CF53C9614520C1 /* OTExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D903EB9E8C7D41D75EBDC0EC738CD1E /* OTMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967F6A726143873C006EF50BDBEF299 /* OTMacro.swift */; };
+		51D78FE1399EC424E3460F309497C055 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9969F920625FFDDA25FE3588A623B5DB /* Foundation.framework */; };
 		595BA4982A4067D56B353DABB6BBBE77 /* Pods-OTExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA22C8509507FAA7C9FFE960FFB54DAC /* Pods-OTExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7412E82C648BCD2AE8E995D288FF36BE /* Pods-OTExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC302C8A89CB59656C3D46B89389A8FA /* Pods-OTExtension_Example-dummy.m */; };
-		91D9CF4A594F4B690ADA53C4C3EB139D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6AC5A0BEAD584418E12B7125A9DA3287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9969F920625FFDDA25FE3588A623B5DB /* Foundation.framework */; };
+		8941D1BB1FB8E4CB14A4BC3ED1F88FB5 /* OTColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38088783445242691918AC7BEA0B6E81 /* OTColorExtension.swift */; };
 		9396395B899CC2D0D8FFF469B99B5F31 /* Pods-OTExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1304286B2DEE56E537FCE55395A0EFE4 /* Pods-OTExtension_Tests-dummy.m */; };
-		B746DB6600A0B68F08D0906195489ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C8E26AC849E7E2901957156783B019DF /* OTExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3DA020964AC5B57602CE6A9CBC0825 /* OTExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D124F5960170580BCD722BFF5993972E /* Pods-OTExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58804927A7CEFE1C5D34745369B99C42 /* Pods-OTExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED5C54F6AA1199726D0F816A1F595E72 /* OTExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACE07F55D0BF07A48FB50A5C42C612 /* OTExtension-dummy.m */; };
+		94F5C851B4BB76AC93E2E99DB2BB0722 /* OTBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC977640C5D77F6FB8C06A13141E80D /* OTBundleExtension.swift */; };
+		98BBA56B30DF7958D73986B0D59A95E3 /* OTMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB69C9C0D189D4BB1B354E14BAF13CD /* OTMacro.framework */; };
+		BC477AED41D3365743790F6AB2F5543C /* Pods-OTExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58804927A7CEFE1C5D34745369B99C42 /* Pods-OTExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB3A9CD8D407D80401606981A73970F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9969F920625FFDDA25FE3588A623B5DB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07D91A9AFB500D0D0ED4ED3B6D38C4F2 /* PBXContainerItemProxy */ = {
+		05ADF689715D3099FC875E4385A63AFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 39ABF52A5AB83C4C2A088C6D22B15D41;
+			remoteGlobalIDString = 1A45BE2CDF901F389EE0A71D20EF371E;
+			remoteInfo = OTMacro;
+		};
+		7CE4757386485B25320A999885B06A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3DFBCD9C399CBCAF70480E0F420381D;
 			remoteInfo = OTExtension;
+		};
+		90EF6AF3241B7CC4250B15A6319C06EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A45BE2CDF901F389EE0A71D20EF371E;
+			remoteInfo = OTMacro;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D32BBBC396612A48AC6D8D47DDDE11D /* OTExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTExtension.modulemap; sourceTree = "<group>"; };
+		11325D62B5234726B4535B0FA84C44AA /* Pods_OTExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTExtension_Example.framework; path = "Pods-OTExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12231AC0A62A838EE2C48ADA0EC05F02 /* Pods-OTExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1304286B2DEE56E537FCE55395A0EFE4 /* Pods-OTExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTExtension_Tests-dummy.m"; sourceTree = "<group>"; };
+		1413E533DAB0B6F29DC4D3064F66E37C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		154F8BA102996D4D0B1C6F27F8C1DC2D /* Pods-OTExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		16B87DB052035DEBF5F7ED0E59EF146E /* Pods-OTExtension_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTExtension_Example-resources.sh"; sourceTree = "<group>"; };
-		2009F2B5E973416167B52D787BB78BB5 /* Pods_OTExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTExtension_Tests.framework; path = "Pods-OTExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2051D37A5EEC0250D06ED3098B7829CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D3DA020964AC5B57602CE6A9CBC0825 /* OTExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTExtension-umbrella.h"; sourceTree = "<group>"; };
-		36D2BF6DB6F172A1D2A9D8DE5072ED50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		382C1F5DF0C4F73F0675840F1B0A39DF /* OTExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTExtension.xcconfig; sourceTree = "<group>"; };
-		42ACE07F55D0BF07A48FB50A5C42C612 /* OTExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTExtension-dummy.m"; sourceTree = "<group>"; };
+		2C380A55654D98C8834EC476FA073169 /* OTMacro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTMacro-umbrella.h"; sourceTree = "<group>"; };
+		313C2162B041BC03E6A8437BEB89F0E8 /* OTMacro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTMacro.xcconfig; sourceTree = "<group>"; };
+		339C2D071E4F7572EE3208D8E43877AC /* OTMacro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTMacro-prefix.pch"; sourceTree = "<group>"; };
+		38088783445242691918AC7BEA0B6E81 /* OTColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTColorExtension.swift; path = OTExtension/Classes/OTColorExtension.swift; sourceTree = "<group>"; };
+		3967F6A726143873C006EF50BDBEF299 /* OTMacro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTMacro.swift; path = OTMacro/Classes/OTMacro.swift; sourceTree = "<group>"; };
+		4763E9E4D160F6320BD9E378DAED128A /* OTExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTExtension-dummy.m"; sourceTree = "<group>"; };
+		4BCA6C23065C4E27B9794CD790D8FFBA /* OTExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTExtension.framework; path = OTExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4031D138D50702E475722CC8CBFE1D /* Pods-OTExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		57A68FDE0FC6381F4548BF529AD69784 /* OTColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTColorExtension.swift; path = OTExtension/Classes/OTColorExtension.swift; sourceTree = "<group>"; };
 		58804927A7CEFE1C5D34745369B99C42 /* Pods-OTExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTExtension_Example-umbrella.h"; sourceTree = "<group>"; };
+		5CFE2FCADF6936D12AEAE03F9E12339B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E2F7C66266BA054D4A3FA0DB7E39D46 /* Pods-OTExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTExtension_Example.modulemap"; sourceTree = "<group>"; };
 		5EDF6FD0C4A880721BF1C6D7B4701F80 /* Pods-OTExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5F6D8473AA639E68192C4CF1B097179A /* OTExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTExtension-prefix.pch"; sourceTree = "<group>"; };
+		659B575385B42869FEC8FF179E80112A /* OTExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTExtension.xcconfig; sourceTree = "<group>"; };
 		724E5245BBDD8CE81018CCC745C380D7 /* Pods-OTExtension_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTExtension_Tests-resources.sh"; sourceTree = "<group>"; };
-		8588BA6CBCF165898B1C59F7129FCE96 /* OTExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTExtension-prefix.pch"; sourceTree = "<group>"; };
+		7D68649A81BD4E371428871B53B06ED2 /* OTMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTMacro.framework; path = OTMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB69C9C0D189D4BB1B354E14BAF13CD /* OTMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		877740DA919C604F5E11F50978155F0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96527EDA705F8B42BD00B9A4E87BE24C /* OTMacro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTMacro.modulemap; sourceTree = "<group>"; };
 		98EAC386CD193D7D7212211B2D410E46 /* Pods-OTExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTExtension_Tests.modulemap"; sourceTree = "<group>"; };
+		9969F920625FFDDA25FE3588A623B5DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9CBF300B60FB8FA5C8883016978F1829 /* Pods-OTExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEC977640C5D77F6FB8C06A13141E80D /* OTBundleExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTBundleExtension.swift; path = OTExtension/Classes/OTBundleExtension.swift; sourceTree = "<group>"; };
 		B2641D74410667A92395E1743AFDA1AC /* Pods-OTExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C5B468206CDB6A32AD63347DFA9E938B /* Pods-OTExtension_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTExtension_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D0BA105BE501047736F124482FDD3447 /* Pods_OTExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTExtension_Example.framework; path = "Pods-OTExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0145C46605C45F688CAF4304896D67A /* OTExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTExtension.modulemap; sourceTree = "<group>"; };
+		D0CB0F12EC6D52FFD29AD001E37F2772 /* Pods_OTExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTExtension_Tests.framework; path = "Pods-OTExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D120281E24055249C0E0B22A75B12CEC /* Pods-OTExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D4A3AB2359D8916528CC9953BB30C18D /* OTExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTExtension.framework; path = OTExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D8D489A930C2FD63093158C82AB33F /* Pods-OTExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D9CF9AB321326468AE96ADBC7908618F /* Pods-OTExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E3433B3DC846FA97D2CF53C9614520C1 /* OTExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTExtension-umbrella.h"; sourceTree = "<group>"; };
+		EF1A34982B9B581B1C8AD99A3D8AD0EA /* OTMacro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTMacro-dummy.m"; sourceTree = "<group>"; };
 		FA22C8509507FAA7C9FFE960FFB54DAC /* Pods-OTExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FC302C8A89CB59656C3D46B89389A8FA /* Pods-OTExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTExtension_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E41274363B5DA006B0C6E8F1859C260 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B746DB6600A0B68F08D0906195489ECE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4FB55501D2CCA9C92F265DAF2064A26E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,68 +103,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1BFEABBC620A0C7B59FA58784E6C30C /* Frameworks */ = {
+		81BD4D80302EC6D28BF35ED337D56C6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91D9CF4A594F4B690ADA53C4C3EB139D /* Foundation.framework in Frameworks */,
+				6AC5A0BEAD584418E12B7125A9DA3287 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C533A96417FF8A9966A484E5BBDFB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D78FE1399EC424E3460F309497C055 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96616BD33F92D1D64004686948FA1C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3A9CD8D407D80401606981A73970F0 /* Foundation.framework in Frameworks */,
+				98BBA56B30DF7958D73986B0D59A95E3 /* OTMacro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D35077C584C1910671615FA77F37B80 /* Development Pods */ = {
+		047142D19AC873AE557E89694575CE9A /* OTMacro */ = {
 			isa = PBXGroup;
 			children = (
-				71D2B6F5A1747D5E5806D343D43F6B0D /* OTExtension */,
+				3967F6A726143873C006EF50BDBEF299 /* OTMacro.swift */,
+				36DE42806361A9D0B9058EE9BBE5607F /* Support Files */,
 			);
-			name = "Development Pods";
+			name = OTMacro;
+			path = OTMacro;
 			sourceTree = "<group>";
 		};
-		42C1FF767D1BF00F62A703BE269AC137 /* Support Files */ = {
+		357C04BC4094AC4758E8B53DE7443EF2 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				36D2BF6DB6F172A1D2A9D8DE5072ED50 /* Info.plist */,
-				0D32BBBC396612A48AC6D8D47DDDE11D /* OTExtension.modulemap */,
-				382C1F5DF0C4F73F0675840F1B0A39DF /* OTExtension.xcconfig */,
-				42ACE07F55D0BF07A48FB50A5C42C612 /* OTExtension-dummy.m */,
-				8588BA6CBCF165898B1C59F7129FCE96 /* OTExtension-prefix.pch */,
-				2D3DA020964AC5B57602CE6A9CBC0825 /* OTExtension-umbrella.h */,
+				9969F920625FFDDA25FE3588A623B5DB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		36DE42806361A9D0B9058EE9BBE5607F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1413E533DAB0B6F29DC4D3064F66E37C /* Info.plist */,
+				96527EDA705F8B42BD00B9A4E87BE24C /* OTMacro.modulemap */,
+				313C2162B041BC03E6A8437BEB89F0E8 /* OTMacro.xcconfig */,
+				EF1A34982B9B581B1C8AD99A3D8AD0EA /* OTMacro-dummy.m */,
+				339C2D071E4F7572EE3208D8E43877AC /* OTMacro-prefix.pch */,
+				2C380A55654D98C8834EC476FA073169 /* OTMacro-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OTExtension";
+			path = "../Target Support Files/OTMacro";
 			sourceTree = "<group>";
 		};
-		4E6586E5C341BC6890AA7AE0CFD1C3E0 /* Products */ = {
+		648F08E0EFE53F9BF95B94EA8F06A136 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D4A3AB2359D8916528CC9953BB30C18D /* OTExtension.framework */,
-				D0BA105BE501047736F124482FDD3447 /* Pods_OTExtension_Example.framework */,
-				2009F2B5E973416167B52D787BB78BB5 /* Pods_OTExtension_Tests.framework */,
+				7EB69C9C0D189D4BB1B354E14BAF13CD /* OTMacro.framework */,
+				357C04BC4094AC4758E8B53DE7443EF2 /* iOS */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		71D2B6F5A1747D5E5806D343D43F6B0D /* OTExtension */ = {
-			isa = PBXGroup;
-			children = (
-				57A68FDE0FC6381F4548BF529AD69784 /* OTColorExtension.swift */,
-				42C1FF767D1BF00F62A703BE269AC137 /* Support Files */,
-			);
-			name = OTExtension;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2D35077C584C1910671615FA77F37B80 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4E6586E5C341BC6890AA7AE0CFD1C3E0 /* Products */,
+				A614AD3C5B8B4D320958FFC69965AE7E /* Development Pods */,
+				648F08E0EFE53F9BF95B94EA8F06A136 /* Frameworks */,
+				C78D3DB6E1353F1953FA1B608E50B867 /* Pods */,
+				DE397CE5A31DAFA840CB237EB4B5EBEC /* Products */,
 				A8F2EFFB5DCF62F0CC3BB93222661EAD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		A614AD3C5B8B4D320958FFC69965AE7E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B564290473F004D54B0700CCA447CDDB /* OTExtension */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A8F2EFFB5DCF62F0CC3BB93222661EAD /* Targets Support Files */ = {
@@ -154,12 +201,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		B564290473F004D54B0700CCA447CDDB /* OTExtension */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				AEC977640C5D77F6FB8C06A13141E80D /* OTBundleExtension.swift */,
+				38088783445242691918AC7BEA0B6E81 /* OTColorExtension.swift */,
+				F2CE7EFE5FD01DE9F55A4D832E51CA0B /* Support Files */,
 			);
-			name = Frameworks;
+			name = OTExtension;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C573C8CD6F6447C49B50C262C74FD65C /* Pods-OTExtension_Tests */ = {
@@ -180,12 +230,12 @@
 			path = "Target Support Files/Pods-OTExtension_Tests";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		C78D3DB6E1353F1953FA1B608E50B867 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				047142D19AC873AE557E89694575CE9A /* OTMacro */,
 			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D791A5B2A84F260CB649BB3D8F2A2372 /* Pods-OTExtension_Example */ = {
@@ -206,17 +256,34 @@
 			path = "Target Support Files/Pods-OTExtension_Example";
 			sourceTree = "<group>";
 		};
+		DE397CE5A31DAFA840CB237EB4B5EBEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BCA6C23065C4E27B9794CD790D8FFBA /* OTExtension.framework */,
+				7D68649A81BD4E371428871B53B06ED2 /* OTMacro.framework */,
+				11325D62B5234726B4535B0FA84C44AA /* Pods_OTExtension_Example.framework */,
+				D0CB0F12EC6D52FFD29AD001E37F2772 /* Pods_OTExtension_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2CE7EFE5FD01DE9F55A4D832E51CA0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CFE2FCADF6936D12AEAE03F9E12339B /* Info.plist */,
+				D0145C46605C45F688CAF4304896D67A /* OTExtension.modulemap */,
+				659B575385B42869FEC8FF179E80112A /* OTExtension.xcconfig */,
+				4763E9E4D160F6320BD9E378DAED128A /* OTExtension-dummy.m */,
+				5F6D8473AA639E68192C4CF1B097179A /* OTExtension-prefix.pch */,
+				E3433B3DC846FA97D2CF53C9614520C1 /* OTExtension-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OTExtension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1209997EE19E97ACC7B95FEF1394E600 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8E26AC849E7E2901957156783B019DF /* OTExtension-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2C0672A2414267C6D8713C2FFBB86B33 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,50 +292,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		627342DC01EEC456E0F9436021814B12 /* Headers */ = {
+		6B30F3EDADFE4AC5D707FAF4B43797F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D124F5960170580BCD722BFF5993972E /* Pods-OTExtension_Example-umbrella.h in Headers */,
+				00C60148414276DE8DCC7E00618BE093 /* OTMacro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47C017E633F28687D9014F82CB89BFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC477AED41D3365743790F6AB2F5543C /* Pods-OTExtension_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E892E4A2444512C6A1C9C7624CCB2770 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4585340EECBE1900BD4C84B3D9F64025 /* OTExtension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		39ABF52A5AB83C4C2A088C6D22B15D41 /* OTExtension */ = {
+		1A45BE2CDF901F389EE0A71D20EF371E /* OTMacro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 905FBAB5863FE2ED71D7E4B38D0A600B /* Build configuration list for PBXNativeTarget "OTExtension" */;
+			buildConfigurationList = 1364B207E039BEF20DA417E701E7F60D /* Build configuration list for PBXNativeTarget "OTMacro" */;
 			buildPhases = (
-				B86E6ECFB9496D7A59F972DAF4276693 /* Sources */,
-				F1BFEABBC620A0C7B59FA58784E6C30C /* Frameworks */,
-				1209997EE19E97ACC7B95FEF1394E600 /* Headers */,
+				648DEED414FF29F27C958B1CD72BED9F /* Sources */,
+				8C533A96417FF8A9966A484E5BBDFB8E /* Frameworks */,
+				6B30F3EDADFE4AC5D707FAF4B43797F6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OTExtension;
-			productName = OTExtension;
-			productReference = D4A3AB2359D8916528CC9953BB30C18D /* OTExtension.framework */;
+			name = OTMacro;
+			productName = OTMacro;
+			productReference = 7D68649A81BD4E371428871B53B06ED2 /* OTMacro.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		64C8EB725ECA7E65F856AD83019028F1 /* Pods-OTExtension_Example */ = {
+		924B4A326C6FC9BA0E5900C7AA995615 /* Pods-OTExtension_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 599A4C90793C7124B89CF7B0A98DF0E3 /* Build configuration list for PBXNativeTarget "Pods-OTExtension_Example" */;
+			buildConfigurationList = 5698699D929A917923D458D6CCD4CB52 /* Build configuration list for PBXNativeTarget "Pods-OTExtension_Example" */;
 			buildPhases = (
-				207EDEF2657C10717ED513102C54E6D0 /* Sources */,
-				0E41274363B5DA006B0C6E8F1859C260 /* Frameworks */,
-				627342DC01EEC456E0F9436021814B12 /* Headers */,
+				65D0535EE5E4F1029E744FE0F3327B77 /* Sources */,
+				81BD4D80302EC6D28BF35ED337D56C6F /* Frameworks */,
+				D47C017E633F28687D9014F82CB89BFB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F139D8822E1C8A3E71F968BDE66A364A /* PBXTargetDependency */,
+				DE37243A63BBA2264314037F3306148A /* PBXTargetDependency */,
+				83D0698EC5E15B87F9F6D20A1460C14A /* PBXTargetDependency */,
 			);
 			name = "Pods-OTExtension_Example";
 			productName = "Pods-OTExtension_Example";
-			productReference = D0BA105BE501047736F124482FDD3447 /* Pods_OTExtension_Example.framework */;
+			productReference = 11325D62B5234726B4535B0FA84C44AA /* Pods_OTExtension_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B5D54551FFABBB5F3A21270FEFD8C610 /* Pods-OTExtension_Tests */ = {
@@ -285,7 +369,25 @@
 			);
 			name = "Pods-OTExtension_Tests";
 			productName = "Pods-OTExtension_Tests";
-			productReference = 2009F2B5E973416167B52D787BB78BB5 /* Pods_OTExtension_Tests.framework */;
+			productReference = D0CB0F12EC6D52FFD29AD001E37F2772 /* Pods_OTExtension_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3DFBCD9C399CBCAF70480E0F420381D /* OTExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64CAD00C2B81400E74ACE40E20F8F25 /* Build configuration list for PBXNativeTarget "OTExtension" */;
+			buildPhases = (
+				57AC9CD72916AD7D7E162C3DD9A07E44 /* Sources */,
+				96616BD33F92D1D64004686948FA1C62 /* Frameworks */,
+				E892E4A2444512C6A1C9C7624CCB2770 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E94AE7D7064AAD1A2ADD6E99E479E16C /* PBXTargetDependency */,
+			);
+			name = OTExtension;
+			productName = OTExtension;
+			productReference = 4BCA6C23065C4E27B9794CD790D8FFBA /* OTExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -305,32 +407,43 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4E6586E5C341BC6890AA7AE0CFD1C3E0 /* Products */;
+			productRefGroup = DE397CE5A31DAFA840CB237EB4B5EBEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39ABF52A5AB83C4C2A088C6D22B15D41 /* OTExtension */,
-				64C8EB725ECA7E65F856AD83019028F1 /* Pods-OTExtension_Example */,
+				C3DFBCD9C399CBCAF70480E0F420381D /* OTExtension */,
+				1A45BE2CDF901F389EE0A71D20EF371E /* OTMacro */,
+				924B4A326C6FC9BA0E5900C7AA995615 /* Pods-OTExtension_Example */,
 				B5D54551FFABBB5F3A21270FEFD8C610 /* Pods-OTExtension_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		207EDEF2657C10717ED513102C54E6D0 /* Sources */ = {
+		57AC9CD72916AD7D7E162C3DD9A07E44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7412E82C648BCD2AE8E995D288FF36BE /* Pods-OTExtension_Example-dummy.m in Sources */,
+				94F5C851B4BB76AC93E2E99DB2BB0722 /* OTBundleExtension.swift in Sources */,
+				8941D1BB1FB8E4CB14A4BC3ED1F88FB5 /* OTColorExtension.swift in Sources */,
+				194FFB98B8DD241E938E176266167BB5 /* OTExtension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B86E6ECFB9496D7A59F972DAF4276693 /* Sources */ = {
+		648DEED414FF29F27C958B1CD72BED9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B04D5AA26BEEBB2F08D0509AA2EA16 /* OTColorExtension.swift in Sources */,
-				ED5C54F6AA1199726D0F816A1F595E72 /* OTExtension-dummy.m in Sources */,
+				19EA8C4A2188EB94E60AC3A36B599A66 /* OTMacro-dummy.m in Sources */,
+				4D903EB9E8C7D41D75EBDC0EC738CD1E /* OTMacro.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D0535EE5E4F1029E744FE0F3327B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F363870F3373BAED377729E4B2D6CB4 /* Pods-OTExtension_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,18 +458,61 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F139D8822E1C8A3E71F968BDE66A364A /* PBXTargetDependency */ = {
+		83D0698EC5E15B87F9F6D20A1460C14A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTMacro;
+			target = 1A45BE2CDF901F389EE0A71D20EF371E /* OTMacro */;
+			targetProxy = 05ADF689715D3099FC875E4385A63AFE /* PBXContainerItemProxy */;
+		};
+		DE37243A63BBA2264314037F3306148A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OTExtension;
-			target = 39ABF52A5AB83C4C2A088C6D22B15D41 /* OTExtension */;
-			targetProxy = 07D91A9AFB500D0D0ED4ED3B6D38C4F2 /* PBXContainerItemProxy */;
+			target = C3DFBCD9C399CBCAF70480E0F420381D /* OTExtension */;
+			targetProxy = 7CE4757386485B25320A999885B06A8A /* PBXContainerItemProxy */;
+		};
+		E94AE7D7064AAD1A2ADD6E99E479E16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTMacro;
+			target = 1A45BE2CDF901F389EE0A71D20EF371E /* OTMacro */;
+			targetProxy = 90EF6AF3241B7CC4250B15A6319C06EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		176D3C5605D71EAA788374874985D9DA /* Debug */ = {
+		098B374434B824C1DE325C1AC72CFDEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D4031D138D50702E475722CC8CBFE1D /* Pods-OTExtension_Example.debug.xcconfig */;
+			baseConfigurationReference = 313C2162B041BC03E6A8437BEB89F0E8 /* OTMacro.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTMacro/OTMacro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTMacro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTMacro/OTMacro.modulemap";
+				PRODUCT_NAME = OTMacro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47257544C49EC7DE229B2CDAC87F62DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9CF9AB321326468AE96ADBC7908618F /* Pods-OTExtension_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -380,13 +536,13 @@
 				PRODUCT_NAME = Pods_OTExtension_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -451,6 +607,38 @@
 			};
 			name = Debug;
 		};
+		511A13D22B4E0693BB9CD51340C8543B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313C2162B041BC03E6A8437BEB89F0E8 /* OTMacro.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTMacro/OTMacro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTMacro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTMacro/OTMacro.modulemap";
+				PRODUCT_NAME = OTMacro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5226A3C9EFED263CDB90277D80A9B036 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 154F8BA102996D4D0B1C6F27F8C1DC2D /* Pods-OTExtension_Tests.release.xcconfig */;
@@ -484,9 +672,9 @@
 			};
 			name = Release;
 		};
-		5328F7B399D6DCD63A74A2FC341A640B /* Debug */ = {
+		688A225E5376B8D2FC0DE70F8DE9921E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 382C1F5DF0C4F73F0675840F1B0A39DF /* OTExtension.xcconfig */;
+			baseConfigurationReference = 659B575385B42869FEC8FF179E80112A /* OTExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -507,41 +695,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		695CF8168224209EB3BD0E223239320D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9CF9AB321326468AE96ADBC7908618F /* Pods-OTExtension_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OTExtension_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OTExtension_Example/Pods-OTExtension_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_OTExtension_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -575,6 +730,37 @@
 				PRODUCT_NAME = Pods_OTExtension_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E9708FC1947EDCA81C38CFBA0EACF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659B575385B42869FEC8FF179E80112A /* OTExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTExtension/OTExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTExtension/OTExtension.modulemap";
+				PRODUCT_NAME = OTExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -639,9 +825,9 @@
 			};
 			name = Release;
 		};
-		D5453C22FA504CD4C920C3BA8900D9B0 /* Release */ = {
+		87465CAA67B4F2C7A46BB5A6982D3818 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 382C1F5DF0C4F73F0675840F1B0A39DF /* OTExtension.xcconfig */;
+			baseConfigurationReference = 4D4031D138D50702E475722CC8CBFE1D /* Pods-OTExtension_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -652,28 +838,39 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OTExtension/OTExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OTExtension/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTExtension_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OTExtension/OTExtension.modulemap";
-				PRODUCT_NAME = OTExtension;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTExtension_Example/Pods-OTExtension_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OTExtension_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1364B207E039BEF20DA417E701E7F60D /* Build configuration list for PBXNativeTarget "OTMacro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098B374434B824C1DE325C1AC72CFDEA /* Debug */,
+				511A13D22B4E0693BB9CD51340C8543B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -683,20 +880,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		599A4C90793C7124B89CF7B0A98DF0E3 /* Build configuration list for PBXNativeTarget "Pods-OTExtension_Example" */ = {
+		5698699D929A917923D458D6CCD4CB52 /* Build configuration list for PBXNativeTarget "Pods-OTExtension_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				176D3C5605D71EAA788374874985D9DA /* Debug */,
-				695CF8168224209EB3BD0E223239320D /* Release */,
+				87465CAA67B4F2C7A46BB5A6982D3818 /* Debug */,
+				47257544C49EC7DE229B2CDAC87F62DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		905FBAB5863FE2ED71D7E4B38D0A600B /* Build configuration list for PBXNativeTarget "OTExtension" */ = {
+		D64CAD00C2B81400E74ACE40E20F8F25 /* Build configuration list for PBXNativeTarget "OTExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5328F7B399D6DCD63A74A2FC341A640B /* Debug */,
-				D5453C22FA504CD4C920C3BA8900D9B0 /* Release */,
+				6E9708FC1947EDCA81C38CFBA0EACF61 /* Debug */,
+				688A225E5376B8D2FC0DE70F8DE9921E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
