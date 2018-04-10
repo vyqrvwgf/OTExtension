@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		10A42C59388FD5493C60587E60F5072F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		52B04D5AA26BEEBB2F08D0509AA2EA16 /* OTColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A68FDE0FC6381F4548BF529AD69784 /* OTColorExtension.swift */; };
 		595BA4982A4067D56B353DABB6BBBE77 /* Pods-OTExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA22C8509507FAA7C9FFE960FFB54DAC /* Pods-OTExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7412E82C648BCD2AE8E995D288FF36BE /* Pods-OTExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC302C8A89CB59656C3D46B89389A8FA /* Pods-OTExtension_Example-dummy.m */; };
-		80C9A11535AE14BD4EF90A97637967A6 /* OTExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 052613B272C81F3D3B4B4AB466B4C3BC /* OTExtension-dummy.m */; };
 		91D9CF4A594F4B690ADA53C4C3EB139D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9396395B899CC2D0D8FFF469B99B5F31 /* Pods-OTExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1304286B2DEE56E537FCE55395A0EFE4 /* Pods-OTExtension_Tests-dummy.m */; };
-		971F7073311241258B88509E5AC7C77F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFE9987DA62A138A82199E7B4668E0 /* ReplaceMe.swift */; };
 		B746DB6600A0B68F08D0906195489ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C8E26AC849E7E2901957156783B019DF /* OTExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1F4299AE0B765B922EB7268EF9340C /* OTExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8E26AC849E7E2901957156783B019DF /* OTExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3DA020964AC5B57602CE6A9CBC0825 /* OTExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D124F5960170580BCD722BFF5993972E /* Pods-OTExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58804927A7CEFE1C5D34745369B99C42 /* Pods-OTExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED5C54F6AA1199726D0F816A1F595E72 /* OTExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACE07F55D0BF07A48FB50A5C42C612 /* OTExtension-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,34 +30,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052613B272C81F3D3B4B4AB466B4C3BC /* OTExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTExtension-dummy.m"; sourceTree = "<group>"; };
+		0D32BBBC396612A48AC6D8D47DDDE11D /* OTExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTExtension.modulemap; sourceTree = "<group>"; };
 		12231AC0A62A838EE2C48ADA0EC05F02 /* Pods-OTExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1304286B2DEE56E537FCE55395A0EFE4 /* Pods-OTExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTExtension_Tests-dummy.m"; sourceTree = "<group>"; };
 		154F8BA102996D4D0B1C6F27F8C1DC2D /* Pods-OTExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		16B87DB052035DEBF5F7ED0E59EF146E /* Pods-OTExtension_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTExtension_Example-resources.sh"; sourceTree = "<group>"; };
 		2009F2B5E973416167B52D787BB78BB5 /* Pods_OTExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTExtension_Tests.framework; path = "Pods-OTExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2051D37A5EEC0250D06ED3098B7829CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D3DA020964AC5B57602CE6A9CBC0825 /* OTExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTExtension-umbrella.h"; sourceTree = "<group>"; };
+		36D2BF6DB6F172A1D2A9D8DE5072ED50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		382C1F5DF0C4F73F0675840F1B0A39DF /* OTExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTExtension.xcconfig; sourceTree = "<group>"; };
+		42ACE07F55D0BF07A48FB50A5C42C612 /* OTExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTExtension-dummy.m"; sourceTree = "<group>"; };
 		4D4031D138D50702E475722CC8CBFE1D /* Pods-OTExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		57A68FDE0FC6381F4548BF529AD69784 /* OTColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTColorExtension.swift; path = OTExtension/Classes/OTColorExtension.swift; sourceTree = "<group>"; };
 		58804927A7CEFE1C5D34745369B99C42 /* Pods-OTExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTExtension_Example-umbrella.h"; sourceTree = "<group>"; };
-		5A1F4299AE0B765B922EB7268EF9340C /* OTExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTExtension-umbrella.h"; sourceTree = "<group>"; };
 		5E2F7C66266BA054D4A3FA0DB7E39D46 /* Pods-OTExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTExtension_Example.modulemap"; sourceTree = "<group>"; };
 		5EDF6FD0C4A880721BF1C6D7B4701F80 /* Pods-OTExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6EC2F05C795A08607D5EF60BA34705D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		724E5245BBDD8CE81018CCC745C380D7 /* Pods-OTExtension_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTExtension_Tests-resources.sh"; sourceTree = "<group>"; };
+		8588BA6CBCF165898B1C59F7129FCE96 /* OTExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTExtension-prefix.pch"; sourceTree = "<group>"; };
 		877740DA919C604F5E11F50978155F0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BAFE9987DA62A138A82199E7B4668E0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OTExtension/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98EAC386CD193D7D7212211B2D410E46 /* Pods-OTExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTExtension_Tests.modulemap"; sourceTree = "<group>"; };
 		9CBF300B60FB8FA5C8883016978F1829 /* Pods-OTExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A43FB0F42763EF07AE98C2BFF41A58E1 /* OTExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTExtension-prefix.pch"; sourceTree = "<group>"; };
-		AFE2567C54F7BABC532A68E45C25E159 /* OTExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTExtension.xcconfig; sourceTree = "<group>"; };
 		B2641D74410667A92395E1743AFDA1AC /* Pods-OTExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C5B468206CDB6A32AD63347DFA9E938B /* Pods-OTExtension_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTExtension_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D0BA105BE501047736F124482FDD3447 /* Pods_OTExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTExtension_Example.framework; path = "Pods-OTExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D120281E24055249C0E0B22A75B12CEC /* Pods-OTExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D4A3AB2359D8916528CC9953BB30C18D /* OTExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTExtension.framework; path = OTExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D545E50DFAA83135E3961BCFDD9DA4AE /* OTExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTExtension.modulemap; sourceTree = "<group>"; };
 		D6D8D489A930C2FD63093158C82AB33F /* Pods-OTExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D9CF9AB321326468AE96ADBC7908618F /* Pods-OTExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FA22C8509507FAA7C9FFE960FFB54DAC /* Pods-OTExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -95,9 +95,23 @@
 		2D35077C584C1910671615FA77F37B80 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6A453607568A8AC65A50C717A307003D /* OTExtension */,
+				71D2B6F5A1747D5E5806D343D43F6B0D /* OTExtension */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		42C1FF767D1BF00F62A703BE269AC137 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36D2BF6DB6F172A1D2A9D8DE5072ED50 /* Info.plist */,
+				0D32BBBC396612A48AC6D8D47DDDE11D /* OTExtension.modulemap */,
+				382C1F5DF0C4F73F0675840F1B0A39DF /* OTExtension.xcconfig */,
+				42ACE07F55D0BF07A48FB50A5C42C612 /* OTExtension-dummy.m */,
+				8588BA6CBCF165898B1C59F7129FCE96 /* OTExtension-prefix.pch */,
+				2D3DA020964AC5B57602CE6A9CBC0825 /* OTExtension-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OTExtension";
 			sourceTree = "<group>";
 		};
 		4E6586E5C341BC6890AA7AE0CFD1C3E0 /* Products */ = {
@@ -110,25 +124,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52EDBF1512F84608653A4DB0D91B785F /* Support Files */ = {
+		71D2B6F5A1747D5E5806D343D43F6B0D /* OTExtension */ = {
 			isa = PBXGroup;
 			children = (
-				6EC2F05C795A08607D5EF60BA34705D7 /* Info.plist */,
-				D545E50DFAA83135E3961BCFDD9DA4AE /* OTExtension.modulemap */,
-				AFE2567C54F7BABC532A68E45C25E159 /* OTExtension.xcconfig */,
-				052613B272C81F3D3B4B4AB466B4C3BC /* OTExtension-dummy.m */,
-				A43FB0F42763EF07AE98C2BFF41A58E1 /* OTExtension-prefix.pch */,
-				5A1F4299AE0B765B922EB7268EF9340C /* OTExtension-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OTExtension";
-			sourceTree = "<group>";
-		};
-		6A453607568A8AC65A50C717A307003D /* OTExtension */ = {
-			isa = PBXGroup;
-			children = (
-				8BAFE9987DA62A138A82199E7B4668E0 /* ReplaceMe.swift */,
-				52EDBF1512F84608653A4DB0D91B785F /* Support Files */,
+				57A68FDE0FC6381F4548BF529AD69784 /* OTColorExtension.swift */,
+				42C1FF767D1BF00F62A703BE269AC137 /* Support Files */,
 			);
 			name = OTExtension;
 			path = ../..;
@@ -240,7 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 905FBAB5863FE2ED71D7E4B38D0A600B /* Build configuration list for PBXNativeTarget "OTExtension" */;
 			buildPhases = (
-				A882E5E860FD67C0ACC4A59F5591D1D4 /* Sources */,
+				B86E6ECFB9496D7A59F972DAF4276693 /* Sources */,
 				F1BFEABBC620A0C7B59FA58784E6C30C /* Frameworks */,
 				1209997EE19E97ACC7B95FEF1394E600 /* Headers */,
 			);
@@ -325,12 +325,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A882E5E860FD67C0ACC4A59F5591D1D4 /* Sources */ = {
+		B86E6ECFB9496D7A59F972DAF4276693 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C9A11535AE14BD4EF90A97637967A6 /* OTExtension-dummy.m in Sources */,
-				971F7073311241258B88509E5AC7C77F /* ReplaceMe.swift in Sources */,
+				52B04D5AA26BEEBB2F08D0509AA2EA16 /* OTColorExtension.swift in Sources */,
+				ED5C54F6AA1199726D0F816A1F595E72 /* OTExtension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,7 +486,7 @@
 		};
 		5328F7B399D6DCD63A74A2FC341A640B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFE2567C54F7BABC532A68E45C25E159 /* OTExtension.xcconfig */;
+			baseConfigurationReference = 382C1F5DF0C4F73F0675840F1B0A39DF /* OTExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -641,7 +641,7 @@
 		};
 		D5453C22FA504CD4C920C3BA8900D9B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFE2567C54F7BABC532A68E45C25E159 /* OTExtension.xcconfig */;
+			baseConfigurationReference = 382C1F5DF0C4F73F0675840F1B0A39DF /* OTExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
