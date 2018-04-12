@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OTExtension'
-  s.version          = '0.1.7'
+  s.version          = '0.1.9'
   s.summary          = 'Extensions'
 
 # This description is used to generate tags and improve search results.
@@ -26,15 +26,16 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sanlazy' => 'hanlei@meiqia.com' }
   s.source           = { :git => 'https://github.com/vyqrvwgf/OTExtension.git', :tag => s.version.to_s }
+
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'OTExtension/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'OTExtension' => ['OTExtension/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'OTExtension' => ['OTExtension/Classes/language.bundle']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -13,15 +13,23 @@ public extension Bundle {
     
     public class func localizedString(text: String) -> String {
         var tableName: String = OTLanguage.Hans.rawValue
-        let currentLanguageRawValue = UserDefaults.standard.string(forKey: kCurrentLanguage) ?? "OTEn"
+        let currentLanguageRawValue = UserDefaults.standard.object(forKey: kCurrentLanguage) as? String ?? "OTEn"
         let currentLanguage = OTLanguage(rawValue: currentLanguageRawValue) ?? .En
+        Bundle.main.path(forResource: "OTExtension", ofType: "framework")
         switch currentLanguage {
         case .Hans:
             tableName = OTLanguage.Hans.rawValue
         case .En:
             tableName = OTLanguage.En.rawValue
         }
-        return NSLocalizedString(text, tableName: tableName, bundle: Bundle.main, value: "", comment: "")
+        var locationURLString = Bundle(for: OTExtensionLocation.self).resourcePath ?? ""
+        locationURLString.append("/OTExtension.bundle")
+        let currentBundle = Bundle(path: locationURLString)
+        let languagePath = currentBundle?.path(forResource: "language", ofType: "bundle") ?? ""
+        guard let languageBundle = Bundle(path: languagePath) else {
+            return text
+        }
+        return NSLocalizedString(text, tableName: tableName, bundle: languageBundle, value: "", comment: "")
     }
 }
 
