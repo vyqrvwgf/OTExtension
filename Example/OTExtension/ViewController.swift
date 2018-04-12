@@ -8,12 +8,15 @@
 
 import UIKit
 import OTExtension
+import OTMacro
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        UserDefaults.standard.set("OTHans", forKey: kCurrentLanguage)
+        UserDefaults.standard.synchronize()
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +24,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print(Bundle.localizedString(text: "mobile_length_too_short"))
+    }
 }
 
