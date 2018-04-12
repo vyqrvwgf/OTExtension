@@ -1,5 +1,5 @@
 PODS:
-  - OTExtension (0.1.8):
+  - OTExtension (0.2.0):
     - OTMacro
   - OTMacro (0.1.2)
 
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  OTExtension: fc0c7e57a197b6da41efb8ed5b64f751e2f225ff
+  OTExtension: 9e171555b5e700f8b4e90f0e91b2889e94b99f31
   OTMacro: 98554f0b7f8b776f7bc51a08f1ada2d9374b6355
 
 PODFILE CHECKSUM: d6a3bac9e080a853717552a1ffaff1144941a2d0

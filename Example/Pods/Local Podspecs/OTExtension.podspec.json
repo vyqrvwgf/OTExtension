@@ -1,6 +1,6 @@
 {
   "name": "OTExtension",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "summary": "Extensions",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/vyqrvwgf/OTExtension",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/vyqrvwgf/OTExtension.git",
-    "tag": "0.1.8"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,7 +21,8 @@
   "source_files": "OTExtension/Classes/**/*",
   "resource_bundles": {
     "OTExtension": [
-      "OTExtension/Classes/language.bundle"
+      "OTExtension/Classes/language.bundle",
+      "OTExtension/Assets/*.png"
     ]
   },
   "dependencies": {

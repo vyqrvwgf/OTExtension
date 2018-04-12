@@ -15,8 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        UserDefaults.standard.set("OTHans", forKey: kCurrentLanguage)
-        UserDefaults.standard.synchronize()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,7 +24,8 @@ class ViewController: UIViewController {
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        print(Bundle.localizedString(text: "mobile_length_too_short"))
+        let image = UIImage.image(named: "closeEye", cache: true)
+        
     }
 }
 
