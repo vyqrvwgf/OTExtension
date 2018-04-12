@@ -8,9 +8,9 @@
 import UIKit
 
 public extension UIImage {
-    public class func image(named: String, cache: Bool = false) -> UIImage? {
+    public class func image(named: String, namespace: String, cache: Bool = false) -> UIImage? {
         var locationURLString = Bundle(for: OTExtensionLocation.self).resourcePath ?? ""
-        locationURLString.append("/OTExtension.bundle")
+        locationURLString.append("/\(namespace).bundle")
         let currentBundle = Bundle(path: locationURLString)
         if cache {
             var path = currentBundle?.resourcePath ?? ""
